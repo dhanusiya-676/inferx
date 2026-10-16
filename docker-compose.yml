@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  inferx-gateway:
+    build: .
+    container_name: inferx_gateway
+    ports:
+      - "8000:8000"
+    command: ["inferx", "serve", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+
+  inferx-dashboard:
+    build: .
+    container_name: inferx_dashboard
+    ports:
+      - "8501:8501"
+    command: ["inferx", "ui", "--port", "8501"]
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
