@@ -208,17 +208,4 @@ docker-compose up --build -d
 
 ---
 
-## 💼 Resume Bullet Points (For NVIDIA, Google, Microsoft, Amazon)
-
-Feel free to use or adapt these quantitative bullet points on your resume:
-
-> - **InferX — Intelligent AI Inference Optimization & Serving Platform**: Architected a production-grade inference acceleration runtime in PyTorch and ONNX Runtime featuring INT8 Post-Training Dynamic Quantization, graph optimizations (constant folding, operator fusion), and structured magnitude pruning.
-> - **Performance & Latency Engineering**: Achieved a **2.85x latency speedup** (p50: 1.34ms) and **3.42x model compression** while mathematically verifying **>99.9% F1-Macro score retention** across multi-class benchmark datasets.
-> - **High-Throughput Serving & Dynamic Batching**: Implemented an asynchronous Triton-style dynamic request batcher in Python/FastAPI with priority queues and request coalescing, yielding a **300% throughput boost** under high-concurrency loads.
-> - **SLA Auto-Tuning**: Developed a multi-objective Pareto Frontier solver to automatically determine optimal precision, batch size, and execution engine under sub-15ms latency and memory SLA constraints.
-
----
-
-## 📄 License
-
-Apache License 2.0. Open-source and enterprise-ready.
+ce and enterprise-ready.
