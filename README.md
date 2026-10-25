@@ -206,6 +206,4 @@ docker-compose up --build -d
 - Gateway API: `http://localhost:8000/docs`
 - Interactive Dashboard: `http://localhost:8501`
 
----
-
 ce and enterprise-ready.
